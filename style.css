@@ -1,0 +1,441 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block1-navbar {
+  background-color: #f1f3ff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 504px;
+}
+
+.block2-navbar {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  height: 36px;
+  background-color: #f1f3ff;
+}
+
+.logo {
+  height: 34px;
+  width: 100px;
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  background-color: #0d28a6;
+}
+
+.link {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.link a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.buttonnav {
+  background-color: #5cb85f;
+  color: white;
+  height: 36px;
+  width: 81px;
+  margin-right: 150px;
+  border: none;
+}
+
+.block-sewa {
+  width: 100%;
+  height: 100%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: end;
+}
+
+.kiri-sewa {
+  background-color: #f1f3ff;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.containertulisan {
+  /* background-color: antiquewhite; */
+  margin-left: 150px;
+  height: 80%;
+  width: 568px;
+}
+
+.judulSewa {
+  /* background-color: aliceblue; */
+  height: 108px;
+  width: 568px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.welcome {
+  /* background-color: beige; */
+  height: 60px;
+  width: 468px;
+  font-size: 14px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sewa {
+  background-color: #5cb85f;
+  color: white;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  border-radius: 2px;
+  border: none;
+  padding: 8px 12px 8px 12px;
+  height: 36px;
+  width: 140px;
+}
+
+.kanan-sewa {
+  position: relative;
+  background-color: #f1f3ff;
+  width: 50%;
+  height: 90%;
+  display: flex;
+  align-items: end;
+  align-self: flex-end;
+}
+
+.car-mercy {
+  background-image: url(./mercy.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 2; /* Mengatur z-index lebih tinggi agar gambar tampil di depan */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.lapiscar {
+  background-color: #0d28a6;
+  width: 100%;
+  height: 60%;
+  border-radius: 100px 0px 0px 0px;
+  /* position: relative; */
+  z-index: 1; /* Mengatur z-index lebih rendah */
+}
+
+.block1-bestCar {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block2-bestCar {
+  display: flex;
+  height: 428px;
+  width: 1027px;
+}
+
+.kiri-bestCar {
+  background: url(./img_service.png);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.wrapperKanan {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.kanan-bestCar {
+  width: 468px;
+  height: 356px;
+  position: relative;
+}
+
+.kanan-bestCar h1 {
+  margin-top: 5px !important;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 72px;
+  width: 468px;
+}
+
+.sewamobildi {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 60px;
+  width: 468px;
+}
+
+.kanan-layanan {
+  width: 295px;
+  height: 184px;
+  position: absolute;
+  bottom: 0;
+}
+
+.layanan {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 24px;
+  width: 295px;
+  margin-bottom: 15px;
+}
+
+.layanan p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+}
+
+.containerTestimonial {
+  /* background-color: #5cb85f; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 583px;
+}
+
+.blockWhyUs {
+  width: 100%;
+  height: 400px;
+  /* background-color: #0d28a6; */
+  display: flex;
+  justify-content: center;
+}
+
+.whyUs {
+  /* background-color: #5cb85f; */
+  height: 308px;
+  width: 1168px;
+  position: relative;
+}
+
+.whyUs h1 {
+  margin: 0;
+  font-size: 24px;
+  height: 36px;
+  width: 468px;
+  font-weight: bold;
+}
+
+.whyUs p {
+  margin: 10px 0px 0px 0px;
+  font-size: 17px;
+  height: 30px;
+  width: 468px;
+}
+
+.whyUs-empat {
+  display: flex;
+  /* background-color: #0d28a6; */
+  justify-content: space-between;
+  height: 196px;
+  width: 1168px;
+  position: absolute;
+  bottom: 0;
+}
+
+.list {
+  /* background-color: #f1f3ff; */
+  height: 100%;
+  width: 268px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #d0d0d0;
+  border-radius: 10px;
+}
+
+.listDalam {
+  /* background-color: #2e2e2e; */
+  height: 80%;
+  width: 100%;
+  margin-left: 17px;
+}
+
+.listDalam h1 {
+  font-size: 16px;
+  font-weight: bold;
+  height: 24px;
+  width: 133px;
+  margin-top: 10px;
+}
+
+.listDalam p {
+  font-size: 14px;
+  height: 60px;
+  width: 220px;
+}
+
+.blockSewaNow {
+  /* background-color: #5cb85f; */
+  height: 420px;
+  display: flex;
+  justify-content: center;
+}
+
+.sewaNow {
+  background-color: #0d28a6;
+  height: 326px;
+  width: 1168px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.sewaNow h1 {
+  height: 54px;
+  width: 613px;
+  text-align: center;
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.sewaNow p {
+  height: 40px;
+  width: 550px;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.sewaNow button {
+  height: 36px;
+  width: 140px;
+  background-color: #5cb85f;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.blockAsk {
+  /* background-color: aqua; */
+  height: 550px;
+  width: 100%;
+}
+
+.footer {
+  /* background-color: #5cb85f; */
+  height: 135px;
+  display: flex;
+  justify-content: center;
+}
+
+.containerFooter {
+  /* background-color: aqua; */
+  height: 128px;
+  width: 1141px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerAlamat {
+  /* background-color: #0d28a6; */
+  height: 112px;
+  width: 268px;
+}
+
+.footerNavbar {
+  /* background-color: #0d28a6; */
+  height: 100%;
+  width: 85px;
+}
+
+.footerSosmed {
+  /* background-color: #0d28a6; */
+  height: 68px;
+  width: 268px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerLogo {
+  /* background-color: #0d28a6; */
+  height: 70px;
+  width: 268px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerAlamat p {
+  margin: 0px 0px 20px 0px;
+  font-size: 14px;
+  width: 268px;
+}
+
+.footerNavbar p {
+  margin: 0px 0px 15px 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footerSosmed p {
+  margin: 0px 0px 10px 0px;
+}
+
+.listSosmed {
+  background-color: rgb(0, 0, 0);
+  height: 32px;
+  width: 224px;
+  background: url(./list\ item.png);
+}
+
+.footerLogo p {
+  margin: 0px 0px 20px 0px;
+}
+
+.footerLogo div {
+  background-color: #0d28a6;
+  height: 34px;
+  width: 100px;
+}
+
+/* Gaya untuk overlay */
+#offcanvas-overlay {
+  display: none;
+}
+
+/* Gaya untuk konten offcanvas saat ditampilkan */
+#offcanvas-content.active {
+  transform: translateX(0);
+}
+
+/* Gaya untuk mengatur posisi konten offcanvas yang sembunyi */
+#offcanvas-content {
+  transform: translateX(100%);
+}
